@@ -15,6 +15,7 @@ public class ImTool {
      * 关闭输入法
      */
     public static void closeKeyBoard(Context context, View editText){
+	//我加的
         InputMethodManager imm = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(editText.getWindowToken(), 0);
